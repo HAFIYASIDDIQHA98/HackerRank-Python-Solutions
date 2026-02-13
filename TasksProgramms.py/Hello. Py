@@ -1,0 +1,7 @@
+# hello.py
+def greet(name):
+    return f"Hello, {name}! Welcome to Git."
+
+if __name__ == "__main__":
+    user_name = input("Apna naam batayein: ")
+    print(greet(user_name))
